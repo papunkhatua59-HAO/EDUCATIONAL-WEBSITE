@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khatua Future Coaching Institute</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Khatua Future Coaching Institute</h1>
+    <p>Learn Today, Lead Tomorrow</p>
+    <button id="modeBtn" onclick="toggleMode()">🌙</button>
+</header>
+
+<nav>
+    <a href="#courses">Courses</a>
+    <a href="#faculty">Faculty</a>
+    <a href="#highlights">Highlights</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="card" id="courses">
+    <h2>Courses Offered</h2>
+    <img src="zoro1.jpeg" alt="anime study">
+    <ul>
+        <li>Class 9 & 10 - Science & Mathematics</li>
+        <li>Class 11 & 12 - PCM / PCB</li>
+        <li>Competitive Exam Preparation</li>
+    </ul>
+</section>
+
+<section class="card" id="faculty">
+    <h2>Our Faculty</h2>
+
+    <div class="faculty-box">
+        <img src="matht.jpeg" alt="faculty">
+        <h3>Shobhasindhu Pujahari</h3>
+        <p>Subject: Mathematics</p>
+        <p>Experience: 5+ Years</p>
+    </div>
+
+    <div class="faculty-box">
+        <img src="phyt.jpeg" alt="faculty">
+        <h3>Alag Pandey</h3>
+        <p>Subject: Physics</p>
+        <p>Experience: 4+ Years</p>
+    </div>
+
+    <div class="faculty-box">
+        <img src="chem1.jpeg" alt="faculty">
+        <h3>Samir Barik</h3>
+        <p>Subject: Chemistry</p>
+        <p>Experience: 6+ Years</p>
+    </div>
+</section>
+
+<section class="card" id="highlights">
+    <h2>Academic Highlights</h2>
+    <p>✔ 95% Success Rate</p>
+    <p>✔ Doubt Clearing Sessions</p>
+    <p>✔ Regular Tests & Feedback</p>
+</section>
+
+<section class="card" id="contact">
+    <h2>Enquiry Form</h2>
+
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="error"></p>
+</section>
+
+<footer>
+    <p>© 2026 Khatua Future Coaching Institute</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
